@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :clients
   root 'welcomes#index'
   # get '/', to: 'home#show'
   # get '/' => 'sessions#index'
